@@ -16,7 +16,7 @@ def get_current_ip():
     return r.text 
 def renew_tor_ip(): 
    with Controller.from_port(port = 9051) as controller: 
-     controller.authenticate(password="Hacker@123") 
+     controller.authenticate(password="hacked") 
      controller.signal(Signal.NEWNYM) 
 for i in range(5): 
   print get_current_ip() 
