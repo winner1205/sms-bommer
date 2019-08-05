@@ -27,7 +27,6 @@ h6=None
 d6={"contactNumber":num}
 url=["https://www.oyorooms.com/api/pwa/generateotp?phone=","https://direct.delhivery.com/delhiverydirect/order/generate-otp?phoneNo="]
 d={u1:[h1,d1],u2:[h2,d2],u3:[h3,d3],u4:[h4,d4],u5:[h5,d5],u6:[h6,d6],"GET":url}
-a2=requests.post(u1,headers=h1,data=d1)
 ssl._create_default_https_context = ssl._create_unverified_context 
 br = mechanize.Browser()	
 br.set_handle_equiv(True)	
