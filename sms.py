@@ -84,10 +84,10 @@ while True:
  c+=1
  try:
     request.post(u7,headers=h7,cookies=c7,json=d7)
-    request.post(u7,headers=h7 cokkies=c7,json=d8)
+    request.post(u7,headers=h7 cookies=c7,json=d8)
  except:
      pass
- for x in d:
+""" for x in d:
    if x=="GET":
      for x1 in d[x]:
         p = Process(target=send, args=(num,x1,x,p21,c,))
@@ -99,7 +99,7 @@ while True:
        p.start()
        p.join()
        c+=1
-
+"""
 
 
 
