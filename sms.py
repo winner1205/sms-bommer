@@ -84,7 +84,7 @@ while True:
  c+=1
  try:
     request.post(u7,headers=h7,cookies=c7,json=d7)
-    request.post(u7,headers=h7 cookies=c7,json=d8)
+    request.post(u7,headers=h7,cookies=c7,json=d8)
  except:
      pass
 """ for x in d:
